@@ -1,0 +1,15 @@
+# File name: hello.py
+
+def say_hello(name):
+    """
+    This function prints a greeting message.
+    
+    Args:
+        name (str): The name of the person to greet.
+    """
+    print(f"Hello, {name}!")
+
+if __name__ == "__main__":
+    username = input("What's your name? ")
+    say_hello(username)
+
